@@ -16,10 +16,10 @@ img {
 
 /* regole di debug */
 [class*="col-"] {
-  /* min-height: 100px;
+  min-height: 100px;
   background-color: lightgreen;
   border: solid 1px  #000;
-  padding: 2px; */
+  padding: 2px;
 }
 /* regole di debug */
 
@@ -199,6 +199,38 @@ img {
 /* SEZIONE 3 */
 
 /* SEZIONE 4 */
+.inp-container{
+   margin: 5px 80px;
+}
+
+.input-text{
+   background: none;
+   border: none;
+   outline: none;
+   width: 100%;
+   height: 30px;
+   border-bottom: 1px solid gray;
+   padding: 30px 0;
+   display: block;
+   font-size: 23px;
+   margin-top: 10px;
+}
+
+.input-submit{
+   text-decoration: none;
+   color: white;
+   font-size: 22px;
+   line-height: 100px;
+   padding: 20px 15px;
+   border-radius: 10px;
+   background-color: #1abc9c;
+}
+.input-submit:hover{
+   text-decoration: none;
+   background-color: #148f77;
+   transition: all 250ms ease-in-out;
+   color: white;
+}
 /* SEZIONE 4 */
 
 /* SEZIONE 5 */
@@ -245,9 +277,21 @@ img {
    .ms_hr_white{
       width: 80px;
    }
+
+   .h1_white{
+      font-size: 37px;
+      font-weight: bolder;
+      color: white;
+   }
+   .h1_black{
+      font-size: 37px;
+      font-weight: bolder;
+      color: black;
+   }
+
 }
 
-@media screen and (max-width: 341px){
+@media screen and (max-width: 353px){
    .ms_star_black{
       font-size: 32px;
    }
