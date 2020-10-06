@@ -170,13 +170,23 @@ img {
 
 
 /* SEZIONE 2 */
+
 #sez2 .background img{
    padding: 0;
    border-radius: 10px;
-
 }
 #sez2 .background{
    margin: 15px;
+   background: url("../img/plus5.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#sez2 .background img:hover{
+   cursor: pointer;
+   opacity: 0.5;
+   transition: all 250ms ease-in-out;
 }
 /* SEZIONE 2 */
 
@@ -308,7 +318,7 @@ footer p{
    }
 
    .ms_a li a{
-      padding-left: 30px;
+      text-align: center;
    }
 }
 /* XS */
@@ -331,7 +341,7 @@ footer p{
 
 
 /* ULTERIORI BREAK POINTS */
-@media screen and (max-width: 481px){
+@media screen and (max-width: 492px){
    .ms_star_black{
       font-size: 35px;
    }
@@ -357,9 +367,16 @@ footer p{
       color: black;
    }
 
+   .navbar-brand{
+      padding-left: 0;
+   }
+   .nav-container{
+      padding: 0;
+   }
+
 }
 
-@media screen and (max-width: 353px){
+@media screen and (max-width: 365px){
    .ms_star_black{
       font-size: 32px;
    }
