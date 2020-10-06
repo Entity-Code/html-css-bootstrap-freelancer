@@ -4,10 +4,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container-fluid{
+   padding: 0;
+}
 img {
   max-width: 100%;
   height: auto;
 }
+/* regole generali */
+
+
 /* regole di debug */
 [class*="col-"] {
   min-height: 100px;
