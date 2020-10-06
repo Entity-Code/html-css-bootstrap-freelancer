@@ -14,15 +14,6 @@ img {
 /* regole generali */
 
 
-/* regole di debug */
-[class*="col-"] {
-  min-height: 100px;
-  background-color: lightgreen;
-  border: solid 1px  #000;
-  padding: 2px;
-}
-/* regole di debug */
-
 /* REGOLE DA ASSEGNARE */
 .il-b{
    display: inline-block;
@@ -38,6 +29,9 @@ img {
    text-align: right;
 }
 /* REGOLE DA ASSEGNARE */
+
+
+
 /* colori boxes */
 .black{background-color: #140f0f;}
 .red{background-color:#ba4b63;}
@@ -46,6 +40,8 @@ img {
 .blue{background-color: #0e38b5;}
 .lightbrown{background-color: #ccb2a3;}
 /* colori boxes */
+
+
 
 .fixed{
    position: fixed;
@@ -77,6 +73,8 @@ img {
    background-color: #2c3e50;
 }
 
+
+
 /* DIVISORIO CON STELLA */
 .ms_hr_white{
    background-color: white;
@@ -105,6 +103,9 @@ img {
    margin-bottom: 25px;
 }
 /* DIVISORIO CON STELLA */
+
+
+
 .h1_white{
    font-size: 45px;
    font-weight: bolder;
@@ -149,11 +150,15 @@ img {
 .ms_hamburgher{
    margin-top: 20px;
 }
+
+#bs-example-navbar-collapse-1{
+   border: none;
+}
 /* MODIFICHE FRAMEWORK COMPONENTS */
 
 /* SEZIONE 1 */
 .nav-container{
-   height: 80px;
+   height: 70px;
 }
 
 .title img{
@@ -161,6 +166,8 @@ img {
 }
 
 /* SEZIONE 1 */
+
+
 
 /* SEZIONE 2 */
 #sez2 .background img{
@@ -171,14 +178,15 @@ img {
 #sez2 .background{
    margin: 15px;
 }
-
-
 /* SEZIONE 2 */
 
+
+
+/* SEZIONE 3 */
 #sez3 h1{
    margin-top: 70px;
 }
-/* SEZIONE 3 */
+
 .download{
    text-decoration: none;
    color: white;
@@ -197,6 +205,8 @@ img {
    transition: all 250ms ease-in-out;
 }
 /* SEZIONE 3 */
+
+
 
 /* SEZIONE 4 */
 .inp-container{
@@ -233,13 +243,55 @@ img {
 }
 /* SEZIONE 4 */
 
-/* SEZIONE 5 */
-
-/* SEZIONE 5 */
 
 
+/* SEZIONE 5 (footer)*/
+footer h4,p{
+   color: white;
+}
+footer h4{
+   font-size: 22px;
+   padding-top: 20%;
+   padding-bottom: 5px;
+   font-weight: 700;
+}
 
+footer p{
+   font-size: 15px;
+}
 
+.top1 a{
+   color: white;
+   padding: 10px;
+   border: 1px solid white;
+   border-radius: 100%;
+   width: 47px;
+   height: 47px;
+   font-size: 19px;
+   justify-content: center;
+   align-items: center;
+}
+.social{
+   margin-bottom: 70px;
+}
+.top1 a:hover{
+   color: black;
+   background-color: white;
+   transition: all 250ms ease-in-out;
+}
+
+.top2 a{
+   color: #1abc9c;
+}
+.top2 a:hover{
+   color: #148f77;
+}
+
+.bot p{
+   font-size: 12px;
+   padding: 25px 0;
+}
+/* SEZIONE 5 (footer)*/
 
 
 
@@ -247,8 +299,17 @@ img {
 
 /* XS */
 @media screen and (max-width: 769px){
+   .social{
+      margin-bottom: 0px;
+   }
 
+   .top2 p{
+      margin-bottom: 70px;
+   }
 
+   .ms_a li a{
+      padding-left: 30px;
+   }
 }
 /* XS */
 
@@ -256,6 +317,13 @@ img {
 /* SM */
 @media screen and (min-width: 768px) and (max-width: 993px){
 
+   .social{
+      margin-bottom: 0px;
+   }
+
+   .top2 p{
+      margin-bottom: 70px;
+   }
 
 }
 /* SM */
@@ -310,7 +378,7 @@ img {
 
 @media screen and (max-width: 1101px){
    #sez2 .background{
-      margin: 0;
+      margin: 15px 0;
    }
 }
 /* ULTERIORI BREAK POINTS */
