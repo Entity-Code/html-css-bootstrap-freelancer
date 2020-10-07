@@ -147,6 +147,17 @@ img {
    color:white;
 }
 
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover{
+   color: white;
+   background-color: #1abc9c;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+   color: white;
+   background-color: transparent;
+}
+
 .ms_hamburgher{
    margin-top: 20px;
 }
@@ -242,6 +253,7 @@ img {
    font-size: 22px;
    line-height: 100px;
    padding: 20px 15px;
+   padding-right: 20px;
    border-radius: 10px;
    background-color: #1abc9c;
 }
@@ -320,6 +332,10 @@ footer p{
    .ms_a li a{
       text-align: center;
    }
+
+   .p_white{
+      font-size: 22px;
+   }
 }
 /* XS */
 
@@ -341,7 +357,7 @@ footer p{
 
 
 /* ULTERIORI BREAK POINTS */
-@media screen and (max-width: 492px){
+@media screen and (max-width: 523px){
    .ms_star_black{
       font-size: 35px;
    }
@@ -376,7 +392,7 @@ footer p{
 
 }
 
-@media screen and (max-width: 365px){
+@media screen and (max-width: 396px){
    .ms_star_black{
       font-size: 32px;
    }
@@ -391,6 +407,33 @@ footer p{
       width: 60px;
    }
 
+   .h1_white{
+      font-size: 25px;
+   }
+
+   .h1_black{
+      font-size: 25px;
+   }
+
+   footer h4 {
+    font-size: 19px;
+   }
+}
+
+@media screen and (max-width: 330px){
+   .ms_star_black{
+      font-size: 30px;
+   }
+   .ms_star_white{
+      font-size: 30px;
+   }
+
+   .ms_hr_black{
+      width: 50px;
+   }
+   .ms_hr_white{
+      width: 50px;
+   }
 }
 
 @media screen and (max-width: 1101px){
@@ -398,5 +441,9 @@ footer p{
       margin: 15px 0;
    }
 }
+
+
+
+
 /* ULTERIORI BREAK POINTS */
 /* MEDIA QUERIES */
